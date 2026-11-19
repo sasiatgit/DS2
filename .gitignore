@@ -1,0 +1,54 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Next.js and generated build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment and credentials (keep the safe configuration template)
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Hosting/tool state
+.vercel/
+.wrangler/
+
+# Test output, coverage and caches
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.cache/
+.eslintcache
+
+# Logs and temporary files
+*.log
+*.pid
+*.pid.lock
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Machine-specific editor settings
+.idea/
+.vscode/
+
+# macOS / Windows metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Keep package-lock.json, source, tests, docs and public assets in Git.
