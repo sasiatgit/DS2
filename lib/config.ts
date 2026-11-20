@@ -22,5 +22,6 @@ export const navigation = [
   ["Services", "/#services"],
   ["Our approach", "/#approach"],
   ["Products", "/#products"],
+  ["Clients", "/#clients"],
   ["About", "/#about"],
 ] as const;

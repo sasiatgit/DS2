@@ -346,6 +346,32 @@ export default function Home() {
           </article>
         </div>
       </section>
+      <section id="clients" className="section clients-section">
+        <div className="container">
+          <p className="eyebrow">OUR CLIENTS</p>
+          <h2>Clients we’ve worked with.</h2>
+          <div className="clients-grid">
+            <article className="client-card">
+              <div className="client-logo client-logo-nusu">
+                <Image src="/clients/nusu.png" alt="Nusu — Play to learn" width={590} height={243} sizes="(max-width: 760px) 80vw, 400px" />
+              </div>
+              <div className="client-details">
+                <h3>Nusu</h3>
+                <p><MapPin size={16} aria-hidden="true" /> Overseas client · USA</p>
+              </div>
+            </article>
+            <article className="client-card">
+              <div className="client-logo client-logo-gigzn">
+                <Image src="/clients/gigzn.png" alt="Gigzn" width={130} height={58} />
+              </div>
+              <div className="client-details">
+                <h3>Gigzn</h3>
+                <p><MapPin size={16} aria-hidden="true" /> Indian Client, Chennai</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
       <section id="about" className="section about-section">
         <div className="container about-grid">
           <div className="about-story">

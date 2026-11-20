@@ -1847,3 +1847,14 @@ textarea[aria-invalid="true"] {
     border-radius: 20px;
   }
 }
+
+.clients-section { background: var(--pale); }
+.clients-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 36px; }
+.client-card { overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+.client-logo { height: 220px; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.client-logo-nusu { background: #10051d; }
+.client-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.client-logo-gigzn img { width: 180px; }
+.client-details { padding: 24px; border-top: 1px solid var(--line); }
+.client-details p { display: flex; align-items: center; gap: 8px; margin: 12px 0 0; font-size: 16px; }
+@media (max-width: 760px) { .clients-grid { grid-template-columns: 1fr; } }
